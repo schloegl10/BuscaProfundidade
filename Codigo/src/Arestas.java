@@ -7,4 +7,13 @@ public class Arestas {
         this.primeiro = primeiro;
         this.segundo = segundo;
     }
+
+    @Override
+    public String toString() {
+        return "Arestas{" +
+                "primeiro=" + primeiro +
+                ", segundo=" + segundo +
+                ", peso=" + peso +
+                '}';
+    }
 }
