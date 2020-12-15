@@ -43,7 +43,7 @@ public class Main {
         verticesAresta = Arrays.asList(valorAresta.split("\\s"));
         primeiroVertice = Integer.parseInt(verticesAresta.get(0));
         segundoVertice = Integer.parseInt(verticesAresta.get(1));
-        System.out.println(grafo.percorreGrafo(primeiroVertice, grafo.vertices.get(grafo.retornaVertice(segundoVertice))));
+        System.out.println("Vertice buscado: " + grafo.percorreGrafo(primeiroVertice, grafo.vertices.get(grafo.retornaVertice(segundoVertice))));
 
     }
 }

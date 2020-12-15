@@ -26,6 +26,7 @@ public class Grafo {
 
     public Vertice percorreGrafo(int valorBuscado, Vertice vertice) {
         vertice.cor = Cor.CINZA;
+        System.out.println(vertice);
         if(vertice.valor == valorBuscado) {
             return vertice;
         }
